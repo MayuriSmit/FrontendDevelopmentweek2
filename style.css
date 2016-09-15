@@ -1,0 +1,41 @@
+
+html {
+    font-family: "nexa", sans-serif;
+}
+
+body {
+    background-color: white;
+    display: grid;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #00d66c;
+    font-size: 2.5em;/* 40px/16=2.5em */
+}
+
+h2 {
+    font-size: 2em; /* 36px/36px=2em */
+    color: #2800a0;
+}
+
+h3 {
+    font-size: 1.5em;/* 24px/24px=1.5em*/
+    color: #ff3268;
+}
+
+p {
+    font-size: 1em; /* 16px/16=1em */
+    line-height: normal;
+    word-spacing: normal;
+    word-break: keep-all;
+}
+
+aside {
+  -webkit-column-count: 2;
+     -moz-column-count: 1;
+          column-count: 2;
+  -webkit-column-width: 500px;
+     -moz-column-width: 100px;
+          column-width: 100px;
+}
