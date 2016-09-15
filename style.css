@@ -1,11 +1,12 @@
 
 html {
     font-family: "nexa", sans-serif;
+    background-color: white;
 }
 
 body {
     background-color: white;
-    display: grid;
+    display:grid
 }
 
 h1 {
@@ -29,13 +30,19 @@ p {
     line-height: normal;
     word-spacing: normal;
     word-break: keep-all;
+    line-height: 1,2em;
 }
 
 aside {
-  -webkit-column-count: 2;
-     -moz-column-count: 1;
-          column-count: 2;
-  -webkit-column-width: 500px;
-     -moz-column-width: 100px;
-          column-width: 100px;
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+  -webkit-column-gap: 4em;
+     -moz-column-gap: 4em;
+          column-gap: 4em;
+  -webkit-column-rule: 1px dotted #ddd;
+     -moz-column-rule: 1px dotted #ddd;
+          column-rule: 1px dotted #ddd;
 }
+
+coloms
